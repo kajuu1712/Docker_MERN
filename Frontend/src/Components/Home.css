@@ -1,0 +1,35 @@
+/* Center everything */
+.home-page {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background: #0f172a; /* dark background */
+  color: white;
+  font-family: "Segoe UI", sans-serif;
+}
+
+/* Heading */
+.home-page h1 {
+  margin-bottom: 20px;
+  letter-spacing: 1px;
+}
+
+/* Button */
+.home-page button {
+  padding: 10px 20px;
+  border: none;
+  border-radius: 6px;
+  background: #22d3ee;
+  color: #020617;
+  font-size: 15px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+/* Hover effect */
+.home-page button:hover {
+  background: #06b6d4;
+  transform: translateY(-2px);
+}

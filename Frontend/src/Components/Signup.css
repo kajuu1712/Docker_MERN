@@ -1,0 +1,85 @@
+body {
+  margin: 0;
+  font-family: "Segoe UI", sans-serif;
+  background: #0f172a; /* dark navy */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+/* Main container */
+.signup-div {
+  width: 340px;
+  padding: 25px;
+  border-radius: 12px;
+  background: #111827;
+  box-shadow: 0 0 20px rgba(0, 255, 255, 0.1);
+  border: 1px solid rgba(0, 255, 255, 0.1);
+}
+
+/* Heading */
+.signup-div h2 {
+  text-align: center;
+  color: #22d3ee;
+  margin-bottom: 20px;
+  letter-spacing: 1px;
+}
+
+/* Form layout */
+.signup-div form {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+/* Input group */
+.signup-div form div {
+  display: flex;
+  flex-direction: column;
+}
+
+/* Labels */
+.signup-div label {
+  font-size: 13px;
+  color: #9ca3af;
+  margin-bottom: 4px;
+}
+
+/* Inputs */
+.signup-div input {
+  padding: 10px;
+  border-radius: 6px;
+  border: 1px solid #1f2933;
+  background: #020617;
+  color: #e5e7eb;
+  font-size: 14px;
+  transition: 0.3s;
+}
+
+/* Glow on focus */
+.signup-div input:focus {
+  outline: none;
+  border-color: #22d3ee;
+  box-shadow: 0 0 6px #22d3ee;
+}
+
+/* Button */
+.signup-div button {
+  margin-top: 10px;
+  padding: 10px;
+  border-radius: 6px;
+  border: none;
+  background: #22d3ee;
+  color: #020617;
+  font-weight: bold;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+/* Button hover */
+.signup-div button:hover {
+  background: #06b6d4;
+  box-shadow: 0 0 10px #22d3ee;
+  transform: translateY(-1px);
+}
