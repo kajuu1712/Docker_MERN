@@ -60,7 +60,7 @@ Here’s what this project includes:
 ## 📂 Project Structure
 
 ```
-Example/
+Docker_MERN/
 │
 ├── Backend/
 │   ├── Dockerfile
@@ -92,8 +92,8 @@ Make sure you have installed:
 #### 1. Clone the repository
 
 ```bash
-git clone <your-repo-link>
-cd Example
+git clone <repo-link>
+cd Docker_MERN
 ```
 
 ---
@@ -116,7 +116,7 @@ This will:
 
 * Frontend → `http://localhost:5173` *(or your frontend port)*
 * Backend → `http://localhost:3000`
-* Mongo Express → `http://localhost:8081`
+* Mongo Express → `http://localhost:8081`  (admin: admin, password: pass)
 
 ---
 
@@ -182,3 +182,10 @@ This project demonstrates how to run a full-stack application using Docker in a 
 Instead of running everything manually, Docker Compose lets you spin up the entire system with a single command ⚡
 
 ---
+## Screenshots
+
+
+<img width="1919" height="1029" alt="Screenshot 2026-03-27 104448" src="https://github.com/user-attachments/assets/537a54aa-45b6-4358-a8ce-c73d5b21dcce" />
+<img width="1919" height="1022" alt="Screenshot 2026-03-27 104554" src="https://github.com/user-attachments/assets/c8a730ed-7dbc-48cc-a3c7-6410567aec8b" />
+<img width="1918" height="1026" alt="Screenshot 2026-03-27 104611" src="https://github.com/user-attachments/assets/29e0051c-30bd-4d94-8309-40ac2adb2650" />
+<img width="1919" height="1031" alt="Screenshot 2026-03-27 104635" src="https://github.com/user-attachments/assets/795b5518-02ba-46be-8a31-6992b2117c07" />
